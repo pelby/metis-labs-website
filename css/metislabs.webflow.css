@@ -8392,3 +8392,48 @@ html.w-mod-js [data-ix="hide-scroll-navigation-on-initial"] {
   font-style: normal;
   font-display: swap;
 }
+.acquisition-banner {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.acquisition-banner-content {
+  max-width: 1200px; /* Centering the content */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.acquisition-title {
+  font-size: 24px; /* Title size */
+  font-weight: bold;
+}
+
+.acquisition-message {
+  font-size: 16px; /* Message size */
+  margin-top: 8px;
+}
+
+.acquisition-link {
+  color: #1e90ff; /* Link color */
+  text-decoration: underline;
+}
+
+.acquisition-link:hover {
+  color: #00bfff; /* Link hover color */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .acquisition-title {
+    font-size: 20px; /* Smaller title on mobile */
+  }
+
+  .acquisition-message {
+    font-size: 14px; /* Smaller message on mobile */
+  }
+}
