@@ -5003,6 +5003,46 @@ html.w-mod-js [data-ix="hide-scroll-navigation-on-initial"] {
   display: none;
 }
 
+/* Acquisition Banner Styles */
+.acquisition-banner {
+  background-color: black;
+  color: white; /* Ensures all text is white */
+  text-align: center;
+  padding: 20px; /* Adds space around the text */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.acquisition-banner h1,
+.acquisition-banner p,
+.acquisition-banner a {
+  color: white; /* Ensures all text and links are white */
+}
+
+.acquisition-banner h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.acquisition-banner p {
+  margin: 0;
+  font-size: 1em;
+  text-align: center;
+}
+
+.acquisition-banner a {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .acquisition-banner h1 {
+    font-size: 1.2em;
+  }
+
+  .acquisition-banner p {
+    font-size: 0.9em;
+  }
+}
 @media screen and (min-width: 1280px) {
   .page-fade-in {
     background-color: var(--white);
